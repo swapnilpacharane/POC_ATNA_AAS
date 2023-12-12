@@ -122,9 +122,9 @@ def watch_RabbitMQ_tester_consume(id):
         consume_body = body.decode()
         consume_body = json.loads(consume_body)
         logging.info(f"Source ID is {consume_body['responses'][0]['source_id']}")
-        if consume_body["responses"][0]["source_id"] == id:
-           status = consume_body["responses"][0]["action_status"]
-           channel.stop_consuming()
+        #if consume_body["responses"][0]["source_id"] == id:
+        status = consume_body["responses"][0]["action_status"]
+        channel.stop_consuming()
         ch.basic_ack(delivery_tag=method.delivery_tag)
 
     channel.basic_qos(prefetch_count=1)
