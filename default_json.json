@@ -1,0 +1,83 @@
+{
+  "requests": [
+    {
+      "action": "Activate",
+      "configuration_item": {
+        "account_id": "undefined",
+        "backend_properties": [],
+        "class": "cmdb_ci",
+        "class_name": "Configuration item",
+        "client_name": "",
+        "company": "Test",
+        "company_esid": "SPG-SD100000055936",
+        "company_id": "484093dec4c14ba0b02a57b6aa8c1bf0",
+        "connections": [
+          {
+            "esid": "DD-SYSID-58731778870541d8ccc741930cbb35b9",
+            "general_config": "{\n\t\"PingRetries\": 2,\n\t\"PingTimeout\": 5000,\n\t\"NumConcurrentCLIRequests\": 5,\n\t\"Profile\": 3,\n\t\"SeedInfos\": [],\n\t\"RangeIps\": [{\n\t\t\"ScopeRangeType\": 1,\n\t\t\"RangeStartSerialize\": \"172.16.100.1\",\n\t\t\"RangeEndSerialize\": null,\n\t\t\"RangeCidr\": 24,\n\t\t\"RangeSubnetMaskSerialize\": null,\n\t\t\"AdvancedRange\": null\n\t}, {\n\t\t\"ScopeRangeType\": 1,\n\t\t\"RangeStartSerialize\": \"172.16.101.1\",\n\t\t\"RangeEndSerialize\": null,\n\t\t\"RangeCidr\": 24,\n\t\t\"RangeSubnetMaskSerialize\": null,\n\t\t\"AdvancedRange\": null\n\t}, {\n\t\t\"ScopeRangeType\": 1,\n\t\t\"RangeStartSerialize\": \"172.16.1.1\",\n\t\t\"RangeEndSerialize\": null,\n\t\t\"RangeCidr\": 24,\n\t\t\"RangeSubnetMaskSerialize\": null,\n\t\t\"AdvancedRange\": null\n\t}, {\n\t\t\"ScopeRangeType\": 1,\n\t\t\"RangeStartSerialize\": \"172.21.24.1\",\n\t\t\"RangeEndSerialize\": null,\n\t\t\"RangeCidr\": 24,\n\t\t\"RangeSubnetMaskSerialize\": null,\n\t\t\"AdvancedRange\": null\n\t}",
+            "ip_ranges": "}],\n\t\"MerakiRestAPIKeys\": [],\n\t\"SNMPMerakiControllers\": [],\n\t\"SNMPCommandsList\": [],\n\t\"CliCommandsList\": [],\n\t\"CollectConfiguration\": true,\n\t\"CollectCsa\": true,\n\t\"CollectHttp\": false,\n\t\"CollectWiFiInfo\": false,\n\t\"DisablePing\": false,\n\t\"CLICommandOutputFolderPath\": null,\n\t\"CLICommandOutputFilePrefix\": \"\",\n\t\"CLISystemCommandsToStore\": null,\n\t\"PingFailureContinue\": false,\n\t\"ForceCLI\": false\n}",
+            "schedule": "0 0 8 1/1 * ? *",
+            "seed_info": "{\n\t\t\"ScopeRangeType\": 1,\n\t\t\"RangeStartSerialize\": \"172.16.200.1\",\n\t\t\"RangeEndSerialize\": null,\n\t\t\"RangeCidr\": 24,\n\t\t\"RangeSubnetMaskSerialize\": null,\n\t\t\"AdvancedRange\": null\n\t}],\n\t\"ExcludedRangeIps\": [],\n\t\"SnmpCredentials\": [{\n\t\t\"Version\": 2,\n\t\t\"CommunityRead\": \"public\",\n\t\t\"SnmpV3AuthType\": 0,\n\t\t\"SnmpV3EncType\": 0,\n\t\t\"Username\": null,\n\t\t\"AuthenticationPassword\": null,\n\t\t\"EncryptedAuthenticationPassword\": null,\n\t\t\"PrivacyPassword\": null,\n\t\t\"EncryptedPrivacyPassword\": null,\n\t\t\"Retries\": 2,\n\t\t\"Timeout\": 5000,\n\t\t\"Port\": 161,\n\t\t\"TextToDisplay\": \"V2 public\"\n\t}, {\n\t\t\"Version\": 2,\n\t\t\"CommunityRead\": \"DNAC-RO\",\n\t\t\"SnmpV3AuthType\": 0,\n\t\t\"SnmpV3EncType\": 0,\n\t\t\"Username\": null,\n\t\t\"AuthenticationPassword\": null,\n\t\t\"EncryptedAuthenticationPassword\": null,\n\t\t\"PrivacyPassword\": null,\n\t\t\"EncryptedPrivacyPassword\": null,\n\t\t\"Retries\": 2,\n\t\t\"Timeout\": 5000,\n\t\t\"Port\": 161,\n\t\t\"TextToDisplay\": \"V2 DNAC-RO\"",
+            "type": "Netformx Discovery Configuration",
+            "used_for": "Discovery"
+          }
+        ],
+        "covering_contracts": [
+          "Asset Analytics"
+        ],
+        "covering_services": [
+          "ATA"
+        ],
+        "esid": "SPN-MV_ATNA_TIS7_LDC",
+        "id": "eead05208789c558b46431990cbb35ec",
+        "ip_address": "152.110.73.88",
+        "location_address_1": "OFF THANISANDRA MAIN ROAD",
+        "location_address_2": "CHOKKANAHALLI VILLAGE",
+        "location_address_3": "",
+        "location_city": "BENGALURU",
+        "location_country": "India",
+        "location_esid": "SPG-LN300000652916",
+        "location_global_region": "Asia",
+        "location_name": "BENGALURU, OFF THANISANDRA MAIN ROAD, 560064",
+        "location_site_id": "",
+        "location_state": "Karnataka",
+        "mac_address": "",
+        "manufacturer": "Dimension Data Global",
+        "model_description": "Asset Tracking & Analytics",
+        "model_id": "DDSP-ATA-AssetTrackingAnalytics",
+        "name": "ATNA Multivendor",
+        "org_unit_esid": "",
+        "org_unit_name": "",
+        "part_number": "DDSP-ATA-AssetTrackingAnalytics",
+        "platform_ids": [
+          "eead05208789c558b46431990cbb35ec",
+          "SPN-MV_ATNA_TIS7_LDC"
+        ],
+        "portal_classification": "",
+        "related_cis": [],
+        "secondary_ip_address": "",
+        "serial_number": "",
+        "software_installed": "",
+        "software_version": "",
+        "system_name": "ATNA Multivendor"
+      },
+      "connections": [
+        {
+          "name": "SDI_ASSET_ANALYTICS_DISCOVERY"
+        }
+      ],
+      "destination": "GLOBAL",
+      "distribution_method": "individual",
+      "name": "SDI_ASSET_ANALYTICS_DISCOVERY",
+      "overridable_errors": [],
+      "policies": [],
+      "protocol_version": 2,
+      "requested_on": "2022-01-27T11:22:05.000Z",
+      "source": "ATnATest",
+      "source_id": "484093dec4c14ba0b02a57b6aa8c1bf1",
+      "timeout": 300,
+      "g_expire_distribution_on": "2022-01-27T12:22:08.747Z"
+    }
+  ],
+  "emr_published_on": 1643282528775
+}
